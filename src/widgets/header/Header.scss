@@ -1,0 +1,40 @@
+.header{
+    &__row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    &__navigation{
+        display: flex;
+        gap: 15px;
+    }
+}
+
+.row{
+
+    &__primary{
+        display: flex;
+        align-items: center;
+
+        a{
+            color: #0077FF;
+        }
+    
+        a:active{
+            color: #0077FF;
+        }
+    }
+
+    &__image{
+        margin-right: 20px;
+    }
+}
+
+.navigation{
+
+    &-task{
+
+    }
+}
